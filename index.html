@@ -590,6 +590,74 @@
   text-shadow: 0 0 5px #f8d57e, 0 0 10px #f8d57e;
 }
 
+
+
+
+
+
+/* Celebration Section */
+#celebration {
+  background-color: #fff;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+#celebration h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  color: #333;
+}
+
+#celebration p {
+  color: #6c757d;
+  font-size: 1rem;
+}
+
+#celebration .card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+#celebration .card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+}
+
+#celebration .card-img-top {
+  height: 200px;
+  object-fit: cover;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+
+#celebration .card-title {
+  font-weight: 600;
+  font-size: 1.2rem;
+  margin-top: 0.5rem;
+}
+
+#celebration .card-text {
+  font-size: 0.95rem;
+  color: #555;
+}
+
+/* Optional: Font Awesome Icon Colors (if needed) */
+.text-warning {
+  color: #ffc107 !important;
+}
+.text-danger {
+  color: #dc3545 !important;
+}
+.text-primary {
+  color: #007bff !important;
+}
+.text-pink {
+  color: #e83e8c !important; /* custom pink */
+}
+
     </style>
   </head>
   <body>
@@ -644,9 +712,9 @@
     <section id="home" class="hero">
       <div class="container">
         <div class="hero-content">
-          <h1 class="font-playfair">Welcome to Tilak lodge</h1>
+          <h1 class="font-playfair">Welcome to Tilak Lodge & Family Restaurant</h1>
           <p>Experience luxury and comfort in the heart of the city</p>
-          <a href="#rooms" class="btn btn-primary btn-lg">Book Your Stay</a>
+          <a href="#rooms" class="btn btn-primary btn-lg">Rooms</a> <a href="#food" class="btn btn-primary btn-lg">Foods</a> <a href="#celebration" class="btn btn-primary btn-lg">celebration</a>
         </div>
       </div>
     </section>
@@ -666,7 +734,7 @@
             <div class="about-text">
               <h3 class="font-playfair">Luxury Redefined</h3>
              <p>
-  Since 2012, Tilak Lodge has been a trusted name in comfortable and affordable hospitality. Blending tradition with modern convenience, we pride ourselves on warm service and attention to detail that ensures every guest feels right at home.
+  Since 2022, Tilak Lodge & Family Restauranthas been a trusted name in comfortable and affordable hospitality. Blending tradition with modern convenience, we pride ourselves on warm service and attention to detail that ensures every guest feels right at home.
 </p>
 <p>
   Ideally located in the heart of the town, Tilak Lodge offers easy access to local markets, temples, transportation hubs, and cultural spots—while providing a quiet and restful stay away from the daily bustle.
@@ -734,7 +802,7 @@
           <div class="col-lg-4 col-md-6">
             <div class="room-card">
               <div class="room-image">
-                <img src="./img/2.jpeg" alt="Deluxe Room" class="img-fluid" />
+                <img src="https://pix10.agoda.net/hotelImages/34644699/-1/201af03e22d75a3d6bec2cdaf5ea58b9.jpg?ce=0&s=414x232" alt="Deluxe Room" class="img-fluid" />
               </div>
               <div class="room-content">
                 <h4 class="font-playfair">Deluxe Room</h4>
@@ -764,7 +832,7 @@
             <div class="room-card">
               <div class="room-image">
                 <img
-                  src="./img/3.jpeg"
+                  src="https://imgservice.rentbyowner.com/375x250/oyo-48527-hotel-anand-lok-in-amra-bc-5512154-0.jpg"
                   alt="Executive Suite"
                   class="img-fluid"
                 />
@@ -830,7 +898,7 @@
           <div class="col-lg-4 col-md-6">
             <div class="room-card">
               <div class="room-image">
-                <img src="https://pix10.agoda.net/property/56131490/0/964db01a4a6c0b0650d3c9b60e7856fb.jpeg?ce=0&s=702x392" alt="Deluxe Room" class="img-fluid" />
+                <img src="https://pix10.agoda.net/hotelImages/6395938/-1/578e956ce056dafc4cb0e02546044680.jpg?ca=7&ce=1&s=414x232" alt="Deluxe Room" class="img-fluid" />
               </div>
               <div class="room-content">
                 <h4 class="font-playfair">Premium Comfort Room</h4>
@@ -927,7 +995,108 @@
 
 
 
+<!-- Food Section -->
+<section id="food" class="py-5 bg-light" >
+  <div class="container">
+    <div class="text-center mb-5">
+      <h2 class="font-playfair fw-bold">Our Delicious Offerings</h2>
+      <p class="text-muted">Experience authentic taste – Veg & Non-Veg specialties</p>
+    </div>
 
+    <div class="row g-4">
+      <!-- Veg Section -->
+      <div class="col-md-6 d-flex">
+        <div class="card shadow-sm border-0 w-100 h-100">
+          <img src="https://content.jdmagicbox.com/comp/bhubaneshwar/k2/0674px674.x674.220401013250.w2k2/catalogue/pure-veg-meals-by-lunchbox-chandrasekharpur-bhubaneshwar-pure-veg-restaurants-rsotuaxg9y.jpg" class="card-img-top img-fluid" style="height: 350px; object-fit: cover;" alt="Veg Food">
+          <div class="card-body d-flex flex-column">
+            <h4 class="card-title text-success"><i class="fas fa-leaf me-2"></i>Pure Veg Delights</h4>
+            <p class="card-text">Enjoy traditional Indian vegetarian cuisine, made with fresh, local ingredients. From paneer to parathas – we serve wholesome meals with love.</p>
+            <ul class="list-unstyled mt-auto">
+              <li><i class="fas fa-circle-check text-success me-2"></i>Paneer Butter Masala</li>
+              <li><i class="fas fa-circle-check text-success me-2"></i>Veg Biryani</li>
+              <li><i class="fas fa-circle-check text-success me-2"></i>Dal Tadka & Jeera Rice</li>
+              <li><i class="fas fa-circle-check text-success me-2"></i>Fresh Rotis & Parathas</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- Non-Veg Section -->
+      <div class="col-md-6 d-flex">
+        <div class="card shadow-sm border-0 w-100 h-100">
+          <img src="https://www.kolhapurtourism.org/wp-content/uploads/2021/09/non-veg-thali-kolhapur.jpg" class="card-img-top img-fluid" style="height: 350px; object-fit: cover;" alt="Non Veg Food">
+          <div class="card-body d-flex flex-column">
+            <h4 class="card-title text-danger"><i class="fas fa-drumstick-bite me-2"></i>Non-Veg Specialties</h4>
+            <p class="card-text">Savor mouth-watering chicken, mutton, and fish dishes – seasoned with bold flavors and cooked to perfection by our expert chefs.</p>
+            <ul class="list-unstyled mt-auto">
+              <li><i class="fas fa-circle-check text-danger me-2"></i>Chicken Curry & Fry</li>
+              <li><i class="fas fa-circle-check text-danger me-2"></i>Mutton Masala</li>
+              <li><i class="fas fa-circle-check text-danger me-2"></i>Fish Thali</li>
+              <li><i class="fas fa-circle-check text-danger me-2"></i>Egg Bhurji</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Celebration Section -->
+<section id="celebration" class="py-5 bg-white">
+  <div class="container">
+    <div class="text-center mb-5">
+      <h2 class="font-playfair fw-bold">Celebrate With Us</h2>
+      <p class="text-muted">Perfect venue for your joyous moments and memorable events</p>
+    </div>
+
+    <div class="row g-4">
+      <!-- Birthday Celebration -->
+      <div class="col-md-6 col-lg-3">
+        <div class="card border-0 shadow-sm h-100 text-center">
+          <img src="https://d2mhotel.com/img/gallery/birthday/1.jpg" class="card-img-top" style="height: 200px; object-fit: cover;" alt="Birthday Celebration">
+          <div class="card-body">
+            <h5 class="card-title"><i class="fas fa-birthday-cake me-2 text-warning"></i>Birthday Parties</h5>
+            <p class="card-text">Make birthdays extra special with beautiful décor, delicious food, and fun vibes.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Wedding Events -->
+      <div class="col-md-6 col-lg-3">
+        <div class="card border-0 shadow-sm h-100 text-center">
+          <img src="https://media.weddingz.in/images/53f2eb529bc99cb9073cb8acedfed553/small-birthday-party-places-bhubaneswar-to-celebrate-best-ever-b-day.jpg" class="card-img-top" style="height: 200px; object-fit: cover;" alt="Wedding Event">
+          <div class="card-body">
+            <h5 class="card-title"><i class="fas fa-heart me-2 text-danger"></i>Parties</h5>
+            <p class="card-text">Enjoy with Your Friends </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Anniversary Events -->
+      <div class="col-md-6 col-lg-3">
+        <div class="card border-0 shadow-sm h-100 text-center">
+          <img src="https://weddingbanquets.in/_next/image?url=https%3A%2F%2Fcms.weddingbanquets.in%2Fstorage%2Fuploads%2F77b0019d93bb2f5f4aeba61151d68373.jpg&w=3840&q=75" class="card-img-top" style="height: 200px; object-fit: cover;" alt="Anniversary Event">
+          <div class="card-body">
+            <h5 class="card-title"><i class="fas fa-ring me-2 text-pink"></i>Anniversaries</h5>
+            <p class="card-text">Celebrate love with romantic ambiance, tasty meals, and quality service.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Cultural Events -->
+      <div class="col-md-6 col-lg-3">
+        <div class="card border-0 shadow-sm h-100 text-center">
+          <img src="https://content.jdmagicbox.com/v2/comp/mumbai/j2/0712px712.x712.200627211624.f6j2/catalogue/laxmikamal-mangal-karyalay-katol-nagpur-banquet-halls-ib11g57xog.jpg" class="card-img-top" style="height: 200px; object-fit: cover;" alt=" Event">
+          <div class="card-body">
+            <h5 class="card-title"><i class="fas fa-theater-masks me-2 text-primary"></i>Cultural Events</h5>
+            <p class="card-text">From bhajan evenings to local gatherings, our space welcomes every celebration.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
 
 
